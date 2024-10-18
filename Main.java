@@ -18,5 +18,7 @@ public class Main {
 
         cc.imprimirExtrato();
         cp.imprimirExtrato();
+
+        banco.printarClientes();
     }
 }

@@ -18,6 +18,16 @@ public class Banco {
         return contas;
     }
 
+    public void printarClientes() {
+        List<String> clientes = new ArrayList<>();
+
+        for (Conta conta : contas) {
+            clientes.add(conta.cliente.getNome());
+        }
+
+        System.out.println(clientes);
+    }
+
     public String getNome() {
         return nome;
     }
